@@ -1,0 +1,835 @@
+{
+  "noEvents": "There are no events for this date",
+  "pitchtalk": "Pitchtalk",
+  "pitchTypes": {
+    "intro": "Intro",
+    "update": "Update",
+    "invest": "Investor",
+    "introPitch": "Intro Pitch",
+    "updatePitch": "Update Pitch",
+    "investPitch": "Investor Pitch",
+    "noPitches": "Current pitch is not available yet. Stay tuned!"
+  },
+  "mainPage": {
+    "title": "From Idea to successful business",
+    "description": "PitchTalk is a platform for communication between projects, investors, and communities. We help you overcome hurdles and reach the pinnacles of success through open and effective communication. Join our Pitch Sessions, DemoDays and Hackathons.",
+
+    "submitProject": "Submit project",
+    "manageProject": "Manage project",
+    "becamePartner": "Become a partner",
+    "managePartner": "Fund office",
+
+    "nextEvents": "NEXT EVENTS",
+    "recentEvents": "RECENT EVENTS",
+    "meta": {
+      "projects": "PROJECTS",
+      "hackers": "HACKERS",
+      "vcsAndAngles": "VCs and ANGELS",
+      "funded": "FUNDED"
+    },
+
+    "events": {
+      "blockTitle": "#PITCH SESSIONS. #DEMODAYS. #HACKATHONS",
+      "setupEvent": "Setup your event",
+      "title": {
+        "Lecture": "Pitch Session",
+        "Tournament": "DemoDays",
+        "Hackathon": "Hackathons"
+      },
+      "description": {
+        "Lecture": "Brief presentations to showcase ideas or projects for potential interest or investment.",
+        "Tournament": "Event to showcase prototypes or products for feedback and investment opportunities.",
+        "Hackathon": "Intensive event for collaborative problem-solving and rapid development of innovative solutions within a limited timeframe."
+      },
+      "list": {
+        "Lecture": {
+          "0": "Pitch your idea",
+          "1": "Get feedback from VCs",
+          "2": "Raise your first money"
+        },
+        "Tournament": {
+          "0": "Show your Product or MVP",
+          "1": "Get Funding or Grants from VCs",
+          "2": "Build Community"
+        },
+        "Hackathon": {
+          "0": "BUILD from scratch",
+          "1": "Win GRANTS",
+          "2": "Begin new Journey"
+        }
+      },
+
+      "participants": "participants",
+      "funds": "funds",
+      "prizePool": "prize pool"
+    }
+  },
+  "events": {
+    "events": "Events",
+    "seeAll": "See all",
+    "nextProjects": "Next Projects",
+    "comingSoon": "(Coming soon)",
+    "dayByDayView": "Day by day",
+    "monthlyView": "Monthly view",
+    "willBeAnnounced": "Will be announced",
+    "startsOn": "Starts on:",
+    "noMatchedResult": "No matched result",
+    "playPitch": "Play pitch video",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "all": "All events",
+    "noEventsBySearch": "There aren't any pitches that match this search request",
+    "noEventsUpcoming": "There aren't any upcoming pitches. Check the recent and stay tuned!",
+    "noEventsDefault": "There aren't any events.",
+    "noPitchesDefault": "There aren't any pitches.",
+    "noEventsJoined": "You haven’t done any contributions yet. Visit the <0>Projects Page</0> and do your first participation.",
+    "hideEmptyDays": "Hide Empty Days",
+    "free": "Free access",
+    "vote": "Vote",
+    "grant": "Grant",
+    "votes": "Votes",
+    "votesAmount": "Votes {{amount}}",
+    "rank": "Rank",
+    "teamMembers": "Members",
+    "projects": "Projects",
+    "referee": "Referee",
+    "backToEvent": "Back To Event",
+    "becomeParticipant": "Submit my project",
+    "becomeReferee": "Become a referee",
+    "eventStart": "Events starts: ",
+    "eventEnd": "Events ends: ",
+    "eventSection": {
+      "mainInfo": "Main info",
+      "participants": "Participants",
+      "schedule": "Schedule",
+      "rating": "Leaderboard",
+      "referee": "Referee",
+      "ecoSystem": "Ecosystem",
+      "liveStream": "Live stream",
+      "partners": "PARTNERS",
+      "prizes": "Prizes",
+      "tasks": "Tasks"
+    },
+    "voteModal": {
+      "title": "Vote for the Project",
+      "subTitle": "By voting, you will help your favorite project get closer to winning the competition.",
+      "left": "{{votes}} votes left"
+    },
+    "participatedAsReferee": "Participating as referee",
+    "participatedAsProject": "Participating as project",
+    "liveStreamStartSoon": "Live streaming starts soon",
+    "watch": "Watch",
+    "repo": "Repo",
+
+    "hackathon": {
+      "prize": "{{place}} prize",
+      "place": "{{place}} place",
+      "attention": "Attention, <b>{{hackathonName}}</b> participant! Please upload your data/solution<b>{{dueDate}}</b>",
+      "onlyDays": ". Only {{daysLeft}} days left",
+      "byDueDate": " by {{dueDate}}",
+      "addSolution": "+ Add Solution",
+      "editSolution": "+ Edit Solution",
+      "repoUrl": "Repo URL",
+      "videoUrl": "Video URL",
+      "solution": "Your solution",
+      "details": "Details"
+    },
+    "projectEvents": "Engaged in Events",
+
+    "addComment": "Add a comment",
+    "toLeaveCommentLogin": "To leave a comment, please log in",
+    "showMore": "Show More",
+
+    "commentsDelay": "You can send new comment in {{seconds}}s",
+    "userNameModal": {
+      "userName": "Username",
+      "beforeContinue": "Before continuing, confirm that you want to keep this as your Pitchtalk username",
+      "doubleCheck": "Please double-check your spelling as changing the username in the future will be impossible",
+      "changeUserName": "Change Username",
+      "keepUserName": "Keep Username",
+      "saveUserName": "Save Username",
+      "userNameSuccess": "The username has been successfully changed",
+      "diseredUserName": "Desired username ({{min}}-{{max}} characters)"
+    },
+    "validation": {
+      "requiredUserName": "Username is required",
+      "tooShortUserName": "Username is too short",
+      "tooLongUserName": "Usermame is too long",
+      "requiredComment": "Comment is required",
+      "tooLongComment": "Comment is too long, {{max}} symbols max"
+    }
+  },
+  "countDown": {
+    "months": "Month",
+    "days": "Days",
+    "hours": "Hrs",
+    "minutes": "Min",
+    "seconds": "Sec"
+  },
+  "navigation": {
+    "events": "Events",
+    "projects": "Projects",
+    "eventCalendar": "Calendar",
+    "profile": "User cabinet",
+    "connectWallet": "Connect wallet",
+    "home": "Home",
+    "howTo": "How to",
+    "goToProject": "Go to project",
+    "goToEvent": "Go to event",
+    "about": "About",
+    "search": "Search",
+    "createProject": "New Project",
+    "manageProject": "Manage project"
+  },
+  "auth": {
+    "logIn": "Log In",
+    "signOut": "Log Out",
+    "connectWallet": "Connect wallet",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithMetamask": "Continue with Metamask",
+    "useNearWallet": "You have to login through the Near Wallet."
+  },
+  "authModal": {
+    "defaultTitle": "Log In or Sign Up",
+    "commentTitle": "You can comment on any stream with a Pitchtalk account",
+    "likeTitle": "You can like any project with a Pitchtalk account",
+    "subTitle": "If you already have - continue with method you have used previously.",
+    "continueWith": "Continue with {{auth}}"
+  },
+  "investPanel": {
+    "donate": "Donate",
+    "invest": "Invest",
+    "grant": "Grant",
+    "grants": "Grants",
+    "total": "Total",
+    "byUser": "User",
+    "currency": "Currency",
+    "totalDonated": "Total donated",
+    "totalInvested": "Total invested",
+    "investNotAvailableNoDocuments": "Invest is not available for current project. Author didn't provide the required documents. Stay tuned!",
+    "grantNotAvailableNoDocuments": "Grant is not available for current project. Author didn't provide the required documents, or project is not ready take grants yet. Stay tuned!",
+    "grantUserDisabled": "Grant and likes is not available. Your account is disabled",
+    "projectDisabled": "Project disabled. Stay tuned!",
+    "wrongAmount": "Please, check the MIN and MAX available values",
+    "youWillGet": "You will get",
+    "allInvestmentsCollected": "The project collected all investments",
+    "investDisabled": "Investments are not available for the current project",
+    "investFinished": "Investments are already finished for this project",
+    "investNotAvailable": "Investments in this project are not yet available. Stay tuned!",
+    "donationsDisabled": "Donations are not yet available for this project",
+    "donationsNotAvailable": "Donations will be available after the Update Pitch start. Stay tuned!"
+  },
+  "currentPitchTitle": {
+    "live": "Watch Live Now",
+    "recent": "Check The Recent",
+    "upcoming": "Don`t Miss This"
+  },
+  "account": {
+    "signOutConfirm": "Are you sure want to log out from current account?",
+    "signInRequire": "To perform this action you have to connect your wallet",
+    "availableBalance": "Available balance",
+    "userName": "User name"
+  },
+  "amounts": {
+    "min": "min",
+    "max": "max",
+    "minInput": "Min input",
+    "maxInput": "Max input",
+    "donated": "Donated",
+    "invested": "Invested",
+    "myDonations": "My donations",
+    "totalDonated": "Total donated",
+    "myInvestments": "My investments",
+    "totalInvestments": "Total invested",
+    "fiatAmount": "≈ {{amount}} USD",
+    "tokenPrice": "Token price"
+  },
+  "documents": {
+    "tokenomics": "Tokenomics",
+    "whitepaper": "Documentation",
+    "pitchdeck": "Pitchdeck",
+    "placeholder": "Insert document link",
+    "uploadButton": "Upload",
+    "confirmDeleteModal": "You are going to delete {{docName}} from project. Are you sure?"
+  },
+  "actions": {
+    "closeModal": "Close",
+    "add": "Add",
+    "delete": "Delete",
+    "continue": "Continue",
+    "reset": "Reset",
+    "ok": "OK",
+    "info": "Info",
+    "post": "Post",
+    "cancel": "Cancel",
+    "goBack": "Go Back"
+  },
+  "toast": {
+    "transactionSuccess": "Transaction success!",
+    "transactionFailed": "Something went wrong. Transaction failed",
+    "toastSuccess": "Action success!",
+    "toastFailed": "Something went wrong. Action failed",
+    "contributionSuccess": "Thank you! Your contribution was success!",
+    "donateSuccess": "Thank you! Your donation was success!",
+    "investSuccess": "Thank you! Your investment was success!",
+    "grantSuccess": "Thank you! Your grant was success!",
+    "claimSuccess": "Your claim was success!",
+    "likeSuccess": "Liked!",
+    "openTransaction": "Open transaction",
+    "dataUpdateWarning": "*If the data doesn't update immediately, refresh the page.",
+    "eventLoadingError": "Cannot load event, please select another one or refresh page.",
+    "like": "Like",
+    "unlike": "Unlike"
+  },
+  "projectsError": {
+    "eventSubmissionError": "Project event submission error."
+  },
+  "inputErrors": {
+    "validNumberError": "Please provide the valid amount",
+    "smallerThanZeroError": "Value should be greater than 0",
+    "smallerThanMinValueError": "Value should be greater than provided minimum amount",
+    "greaterThanMaxValueError": "Value should be less than provided maximum amount",
+    "greaterThanAvailableAmount": "Value should be less than available amount",
+    "maxInvested": "You have invested max amount",
+    "totalInvestmentsLimit": "The project has investments limit, max available amount to invest: {{amount}}"
+  },
+  "terms": {
+    "terms": "Cryptocurrency investment activities are subject to market risk. We are not responsible for the results that may arise from your investment. This page and any information are not meant to be interpreted as an endorsement of any particular cryptocurrency or method of acquiring it."
+  },
+  "claim": {
+    "claimBtn": "Claim",
+    "allClaimed": "All tokens claimed",
+    "userTokens": "Your tokens",
+    "availableTokens": "Available tokens",
+    "tokenPrice": "Token price",
+    "nextUnlock": "Next unlock in",
+    "fullUnlocked": "All tokens was unlocked",
+    "cliffTime": "Cliff period will be ended in"
+  },
+  "vesting": {
+    "vestingBtn": "Vesting info",
+    "unlock": "unlock"
+  },
+  "footer": {
+    "platform": "Pitchtalk platform",
+    "copyright": "Copyright"
+  },
+  "links": {
+    "viewAllPortfolio": "View all joined",
+    "viewAllEvents": "View all events"
+  },
+  "howToPage": {
+    "forInvestors": "For investors",
+    "forProjects": "For projects",
+    "investorsPage": {
+      "title": "How to use PITCHTALK",
+      "subTitle": "Video guide / Wallet / Pitches / Donations / Investment / Vesting and info ",
+      "sections": {
+        "video": "VIDEO GUIDE",
+        "wallet": "WALLET",
+        "pitches": "PITCHES",
+        "donations": "DONATIONS",
+        "investments": "INVESTMENTS",
+        "vesting": "VESTING AND INFO"
+      },
+      "questions": {
+        "video": "Brief video instruction describing the main functions of the platform available to the investor",
+        "wallet": {
+          "connect": "How to connect to PitchTalk?"
+        },
+        "pitches": {
+          "watch": "How to watch pitches?",
+          "schedule": "How to view the pitch schedule?",
+          "types": "What types of pitches are there?"
+        },
+        "donations": {
+          "whatItIs": "What are donations?",
+          "donate": "How and when can I donate to the project?"
+        },
+        "investments": {
+          "whatItIs": "What is investment?",
+          "invest": "How and when can I invest in a project?",
+          "seeInvestList": "How can I see the list of projects that I have donated or invested in?",
+          "projectTokens": "How can I get project tokens that I have invested in?",
+          "myInvest": "How can I see the amount of funds that I have donated or invested in the project?"
+        },
+        "vesting": {
+          "whatItIs": "What is vesting?",
+          "view": "How to view detailed information about a project?"
+        }
+      }
+    }
+  },
+  "projectStatus": {
+    "SOON": "Soon",
+    "NEW": "New",
+    "LIVE": "Live",
+    "HOT": "Hot",
+    "VESTING": "Vesting",
+    "COMPLETED": "Completed"
+  },
+  "filterModal": {
+    "projectStatus": "Project status",
+    "sortedBy": "Sorted by",
+    "low": "Low first",
+    "high": "High first",
+    "lowDate": "Older first",
+    "highDate": "Newer first",
+    "apply": "Apply",
+    "byCreationDate": "Creation date",
+    "byInvestments": "Investments",
+    "foundProjects": "Found {{amount}} projects",
+    "notFoundProjects": "Projects with this filters not found"
+  },
+  "projectsPage": {
+    "soon": "Soon",
+    "filters": "Filters",
+    "clear": "Clear",
+    "joinedProjects": "Joined",
+    "premiumProjects": "Premium",
+    "ratedProjects": "Rated",
+    "noProjectsBySearch": "There aren't any projects that match this search request",
+    "noProjects": "There aren't any projects."
+  },
+  "participantForm": {
+    "title": "You are one step closer to have your Pitch seen!",
+    "firstDescription": "By submitting your Pitch you are exposing your Project to a myriad of new opportunities: influential VCs, engaged audience, and the most seamless Fundraising Experience imaginable.",
+    "secondDescription": "Submitting a Pitch is not free as Pitchtalk is a provider of unique service that exposes your idea and vision to the notable players in the industry and specifically within the NEAR ecosystem. We also allow anyone to submit their pitch, giving indiscriminate chance to all!",
+    "howToForProjects": "How to for Projects",
+    "step": "Step {{step}}",
+    "creatorsContactInformation": "Creator’s contact information",
+    "generalInformation": "General information",
+    "insertLink": "insert {{placeholder}} link",
+    "socialMedia": "Social media",
+    "payment": "Payment",
+    "telegram": "Telegram",
+    "email": "Email",
+    "insertTelegramLink": "insert telegram link",
+    "projectName": "Project name",
+    "projectDescription": "Project description",
+    "projectBanner": "Project banner",
+    "projectLogo": "Project logo",
+    "projectUrl": "Project url",
+    "typeProjectName": "type project name",
+    "typeUpToSymbols": "type up to 1000 symbols",
+    "typeUpToUrl": "type project url",
+    "totalFee": "Total fee : {{totalFee}}",
+    "pay": "Pay",
+    "disclaimer": "Disclaimer",
+    "disclaimerDescription": "Submitted Pitch is due for internal Due Diligence Review to eliminate any potentiality of  blatant Scam Submissions. PitchTalk also doesn't guarantee either specifics in fundraising amount or promises immediate success.PitchTalk is created as a platform that promotes those unheard and have their vision seen",
+    "warn": "warn icon",
+    "socialIcon": "social icon",
+    "upload": "Upload",
+    "termsAndConditions": "Terms and Conditions",
+    "agreeWith": "I agree with ",
+    "uploadImage": "Please upload a picture (banner or logo)",
+    "mobileSubmissionText": "Please switch to the desktop version to access all features",
+    "formInvalid": "Form is invalid. Please, check the fields",
+    "notEnoughTokens": "You have not enough tokens.",
+    "validation": {
+      "telegram": "Should be a valid 't.me' or 'telegram.me' link",
+      "twitter": "Should be a valid twitter link",
+      "discord": "Should be a valid discord link",
+      "medium": "Should be a valid medium link",
+      "near_social": "Should be a valid near social link",
+      "linkedin": "Should be a valid linkedin link",
+      "requiredField": "Field is required",
+      "logoIsRequired": "Please, upload the Project Logo",
+      "bannerIsRequired": "Please, upload the Project Banner",
+      "maxLength": "The length should be lower than 1000 chars",
+      "validEmail": "Should be the valid email",
+      "invalidUrl": "Enter the valid URL",
+      "invalidImageUrl": "Should be a valid image url. Possible formats: jpg|jpeg|gif|png|tiff|bmp|svg",
+      "httpError": "Should starts with http:// or https://",
+      "uploadImageError": "There is an error during image upload, choose another one, please.",
+      "nameRecommendation": "We are recommending to paste the project name first of all."
+    },
+    "uploadImagesTitle": "Project Banner and Project Logo",
+    "uploadImagesTitleBanner": "Project Banner",
+    "uploadImagesTitleLogo": "Project Logo",
+    "uploadBanner": "Change Banner",
+    "uploadLogo": "Change Logo",
+    "uploadImages": "Upload Images"
+  },
+  "institutionalSubmission": {
+    "generalInformation": "Fund information",
+    "fundName": "Fund Name",
+    "typeFundName": "type fund name",
+    "typeAccount": "type account",
+    "typeFundUrl": "type fund url",
+    "addAccount": "Add Account",
+    "fundUrl": "Fund Url",
+    "uploadImagesTitle": "Fund Logo",
+    "uploadLogo": "Change Logo",
+    "uploadImages": "Upload Image",
+    "pay": "Pay",
+    "formInvalid": "Form is invalid. Please, check the fields",
+    "agreeWith": "I agree with ",
+    "termsAndConditions": "Terms and Conditions",
+    "errorAccount": "Invalid Account",
+    "uploadPreviewLogo": " Please upload a logo",
+    "waitApprove": "Wait for Approve...",
+    "approveDeclined": "Approve declined",
+    "validation": {
+      "requiredField": "Field is required",
+      "logoIsRequired": "Please, upload the Fund Logo",
+      "invalidUrl": "Enter the valid URL",
+      "registeredAccount": "Account is already registered"
+    }
+  },
+  "grantsTable": {
+    "amount": "{{amount}} {{token}}"
+  },
+  "likesLabel": {
+    "likes": "{{amount}} One on One",
+    "like": "{{amount}} One on One"
+  },
+  "projectCabinetPage": {
+    "newProjectReviewing": "Your application has been accepted and is under consideration by the administrator. Wait for approval",
+    "projectResettingInfo1": "We must notify you that for some reason, the actual version of your project is different from the current draft. For keeping both versions in sync, we kindly ask you to reset your submission. This action will merge the recent version of your project from PitchTalk to your draft. It will also allow you to request any changes again from scratch. Otherwise, as we must warn, you won't be able to edit your project or push new changes.",
+    "projectResettingInfo2": "This mechanism was invented for handling some technical issues which are beyond our control. It also helps us to constantly receive all updates that you want to adjust for your project. We apologize for any inconveniences this request may cause you.",
+    "projectResettingInfo3": "The administrator asked you to reset project.",
+    "activateProject": "Activate project",
+    "deactivateProject": "Deactivate project",
+    "currentBalanceTitle": "Current balances",
+    "logBoxTitle": "Log box",
+    "noLogs": "There are no logs...",
+    "listOfTransfersTitle": "List of transfers",
+    "donations": "Donations",
+    "investments": "Investments",
+    "grants": "Grants",
+    "withdraw": "Withdraw",
+    "created": "Created: {{date}}",
+    "sum": "Sum",
+    "tokenName": "Token name",
+    "balanceFrom": "Balance from",
+    "walletTo": "Wallet to",
+    "willBeAvailableSoon": "Will be available soon!",
+
+    "generalInformation": "General information",
+    "projectInfo": "Project info",
+    "social": "Social",
+    "documentation": "Documentation",
+    "tags": "Tags",
+    "projectName": "Project name",
+    "projectDesc": "Project description",
+    "projectBanner": "Project banner",
+    "projectLogo": "Project logo",
+    "projectURL": "Project url",
+
+    "financialInformation": "Financial information",
+    "ftToken": "FT token",
+    "investmentsSettings": "Investments settings",
+    "vesting": "Vesting",
+    "vestingToken": "Vesting token",
+    "chooseFromDropDownOrInsert": "Choose from dropdown or insert token contract link",
+    "vestingType": "Vesting type",
+    "startDate": "Start vesting date",
+    "endDate": "End vesting date",
+    "price": "Price",
+    "vestingPrice": "1 {{vestingTokenSymbol}} = {{price}} {{projectTokenSymbol}}",
+    "investEndDate": "Invest end date",
+    "investMin": "Investment MIN",
+    "investMax": "Investment MAX",
+    "totalInvest": "Total investment",
+    "stage": "Stage {{stage}}",
+    "percentage": "Percentage",
+    "addStage": "Add stage {{stage}}",
+
+    "pitches": "Pitches",
+    "pitchName": "Pitch name",
+    "speakerName": "Speaker’s name",
+    "startTime": "Start time",
+    "duration": "Duration",
+    "inMinutes": "in min",
+    "videoUrl": "Video url",
+
+    "team": "Team",
+    "projectTeam": "Project team",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "position": "Position",
+    "walletId": "Wallet Id",
+    "email": "Email",
+    "imgUrl": "Image",
+    "removeMember": "Remove team member?",
+    "noTeam": "There is no added team in your project.",
+
+    "pleaseAddInvestPitch": "Please add invest pitch before editing fin data",
+    "pleaseAddToken": "Please add FT token before editing fin data",
+
+    "changeInfoModal": {
+      "title": "Your change request has been accepted. Wait for admin review and approval",
+      "subTitle": "Don't show me this message again"
+    },
+    "approvedChanges": "Admin approved changes",
+    "declinedChanges": "Admin declined changes",
+
+    "confirmUpdateTokenModal": "You are going to update project FT Token. Are you sure?"
+  },
+  "placeHolders": {
+    "typeProjectName": "type project name",
+    "typeUpTo1000Symbols": "type up to 1000 symbols",
+    "insertBannerLink": "insert banner link",
+    "insertLogoLink": "insert logo link",
+    "insertImgLink": "insert img link",
+    "insertProjectLink": "insert project link",
+    "insertSocialLink": "insert social link",
+    "insertDocumentLink": "insert document link",
+    "comment": "Click to add a comment",
+    "insertContractLink": "Insert contract link",
+
+    "processing": "Processing...",
+    "declined": "Declined",
+
+    "logoProcessing": "Logo update is processing...",
+    "logoDeclined": "Logo update was declined.",
+    "bannerProcessing": "Banner update is processing...",
+    "bannerDeclined": "Banner update was declined."
+  },
+  "controls": {
+    "upload": "Upload",
+    "uploadAsLink": "Save as link",
+    "uploadAsFile": "Save as file",
+    "uploadFile": "Upload file",
+    "clear": "Clear",
+    "preview": "Preview",
+    "save": "Save",
+    "edit": "Edit",
+    "editLink": "Edit link",
+    "view": "View",
+    "add": "Add",
+    "saveChanges": "Save changes",
+    "editProject": "Edit project",
+    "sendVestingTokens": "Send vesting tokens",
+    "submit": "Submit",
+    "delete": "Delete",
+    "addToken": "Add token",
+    "changeToken": "Change token"
+  },
+  "switch": {
+    "on": "On",
+    "off": "Off"
+  },
+  "tooltips": {
+    "intro-pitch": "Intro Pitch - the very basic overview of a project and the vision behind it. No investments are accepted during this stage",
+    "update-pitch": "Update Pitch - this section focuses more on the core idea, ways of delivering and setting expectations. Donations can be accepted starting from this stage!",
+    "invest-pitch": "Investors Pitch - designed to be a capital investor section where entrepreneurs can pitch their ideas and vision directly to VCs. Retail Investors are able to invest directly during this stage!",
+    "ftToken": "Token (currency) in which the project wants to receive donations and/or investments. You can select a token from the list.\n\n This field cannot be changed later.",
+    "investmentsSettings": "Investment round settings. The project must indicate the vesting token that it plans to sell to investors in the investment round. You can select a token from the list or insert the contract address of another token into the corresponding field.\n\nOnly NEAR-based tokens are accepted.\n\nThe project can receive investments only after the start of the third (investment) pitch with loaded tokenomics. For more details, see How To for Projects",
+    "vesting": "Vesting settings for the investment round.\n\nThe project can receive investments only after the start of the third (investment) pitch with loaded tokenomics. For more details, see How it works for Projects",
+    "projectInfo": "General information about the project. The project creator can fill in, add and edit information. All actions require an admin review. <strong>WARNING!!! All graphic elements should be in the form of links to a file hosted on a remote server.</strong>",
+    "social": "Links to social networks of the project",
+    "documentation": "Links to project documentation. You might paste the link to the file from the remote server, link to the web documentation, or upload the file. Acceptable formats: <strong>.doc, .txt, .pdf</strong>. \n\n <strong>We are storing uploading files on the IPFS server, so ensure that uploaded files don't contain sensitive information</strong>",
+    "currentBalances": "Amounts of received donations, grants, investments. Creator of the project can initiate the withdrawal of these funds to his authorization wallet (requires admin confirmation)",
+    "logBox": "Block in which the project creator sees the status and chronology of all his actions with the project, and also receives feedback from the admin",
+    "listOfTransfers": "List of withdrawal transactions (donations, grants, investments), if any.",
+    "vestingSettings": {
+      "vestingType": "Vesting is the period in which the distribution of project tokens (vesting tokens) between investors takes place. It can be linear - when the tokens are evenly distributed between the start date and the end date. And non-linear - when tokens are distributed in specified proportions during specified periods of time.",
+      "startVestingDate": "Start date of the vesting period. From this moment, tokens begin to become available for claim by investors.",
+      "endVestingDate": "End date of the vesting period. From this moment on, all tokens are credited to investors and can be fully claimed.",
+      "price": "The price at which the project sells its vesting tokens to investors. Indicated in FT tokens.",
+      "investEndDate": "Date until which investors can invest in the project. Date until which the project collects investments.",
+      "investMin": "The minimum amount (in FT tokens) that 1 investor can deposit.",
+      "investMax": "The maximum amount (in FT tokens) that 1 investor can deposit at all times.",
+      "investTotal": "The total amount of investments (in FT tokens) that the project plans to collect from all investors."
+    },
+    "generalSettings": {
+      "bannerImgSize": "Recommended banner image size: 1280x720",
+      "logoImgSize": "Any logo shape will be good.\n SVG and PNG format with transparent background and size up to 300x300 will be preferable",
+      "projectUrlExample": "Recommended project url formats:\n http://pitchtalk.com/\n https://pitchtalk.com/\n"
+    },
+    "teamSettings": {
+      "logoImgSize": "An image with an aspect ratio of 1:1 is ideal (500x500, 1000x1000, etc.)"
+    }
+  },
+  "withdrawModal": {
+    "submit": "Submit request",
+    "withdrawTo": "Withdraw to",
+    "walletAddress": "Wallet address",
+    "totalGrantAmount": "Total grant amount",
+    "withdraw": {
+      "grants": "Grant withdrawal",
+      "donations": "Donations withdrawal",
+      "investments": "Investments withdrawal",
+      "vesting_tokens": "Vesting tokens withdrawal"
+    }
+  },
+  "error": {
+    "message": "OOPS! Something went wrong ...",
+    "messageWithContact": "OOPS! Something went wrong, contact admin please...",
+    "button": "RELOAD THE PAGE"
+  },
+  "transactionsError": {
+    "highRiskScore": "Your account has a high-risk score, you cannot make any transactions."
+  },
+  "validation": {
+    "incorrectDate": "*Incorrect date",
+    "incorrectURL": "*Enter the valid URL",
+    "incorrectAmount": "*Incorrect amount",
+    "incorrectField": "*Incorrect field",
+    "requiredField": "*Required field",
+    "projectExist": "*Project with this name already exist",
+    "unknownToken": "*Cannot find this token",
+    "notEnoughTokens": "*You haven't enough tokens. Need: {{need}}",
+    "pitch": {
+      "name.required": "*Name is required",
+      "speakerName.required": "*Speaker name is required",
+      "startsOn": {
+        "required": "*Start time is required",
+        "min.update_pitch": "*The Update pitch cannot start earlier than the Intro pitch",
+        "min.investors_pitch": "*The Investor pitch cannot start earlier than the Update pitch"
+      },
+      "duration": {
+        "required": "*Duration is required",
+        "min": "*Min pitch duration {{min}}",
+        "max": "*Max pitch duration {{max}}"
+      },
+      "videoUrl": {
+        "required": "*Video url is required",
+        "invalid": "*Video url is invalid"
+      }
+    },
+    "project": {
+      "name.required": "*Project name is required",
+      "description.required": "*Description is required",
+      "description.max": "*Description is too long",
+      "projectURL.required": "*Project url is required"
+    },
+    "finSettings": {
+      "investEndData.min": "*Invest end date cannot be before investors pitch",
+      "vestingStart.min": "*Vesting cannot starts before invest end date"
+    }
+  },
+  "profilePage": {
+    "projectOverview": "Project overview",
+    "issuedGrants": "Issued Grants",
+    "noGrants": "You haven't issued any Grants yet.",
+    "goToFundCabinet": "Go to Fund Cabinet",
+    "goToFundRegister": "Go to Fund Register",
+    "fundMessage": "You will able to issue grants, contact with projects and also be a referee on a PitchTalk Events"
+  },
+  "banner": {
+    "title": "get access to the personal account of the project",
+    "getAccess": "GET ACCESS"
+  },
+  "submissionBanner": {
+    "title": "Create your project and present your idea",
+    "getAccess": "Get access to the personal account of the project",
+    "applyRegistration": "Automatically apply for registration",
+    "manageProject": "Manage your project",
+    "createProject": "Create new project"
+  },
+  "submissionStatuses": {
+    "SubmissionInit": "[Submission Initiated]",
+    "SubmissionUpdated": "[Submission Updated]",
+    "SubmissionRejected": "[Submission Rejected]",
+    "SubmissionApproved": "[Submission Approved]",
+    "ProjectCreated": "[Project Created]",
+    "ProjectRemoved": "[Project Removed]",
+    "ProjectChanges": "[Project Changes]",
+    "ProjectChangesRejected": "[Project Changes Rejected]",
+    "ProjectChangesApproved": "[Project Changes Approved]",
+    "WithdrawRequest": "[Withdraw Request]",
+    "WithdrawInProgress": "[Withdraw In Progress]",
+    "WithdrawRejected": "[Withdraw Rejected]",
+    "WithdrawApproved": "[Withdraw Approved]",
+    "ProjectResetting": "[Project Resetting]",
+    "ProjectRequestToResetting": "[Project Request To Resetting]",
+    "ProjectCancelRequestToResetting": "[Project Cancel Request To Resetting]"
+  },
+  "unknownDate": "Unknown Date",
+  "aboutPage": {
+    "blockchainHead": "BLOCKCHAIN AGNOSTIC\n decentralized\n acceleration program -\n PitchTalk!",
+    "screenLeft": {
+      "title": "Pitchtalk",
+      "subTitle": "Decentralized acceleration program",
+      "content": "PitchTalk in a nutshell is an independent platform for Live Presentations of projects for potential investors. It enables ANY project to launch a campaign, attract investors, provide updates on the development and initiate a fundraising."
+    },
+    "whatIsBlock": {
+      "title": "WHAT IS PITCHTALK?",
+      "content-1": "PitchTalk is a part of a <b>one unified ecosystem</b> - Jumbo Exchange, HAPI and Boca Chica. PitchTalk also <b>serves as a way for projects on PitchTalk to be a part of both social media exposure and useful technical integrations.</b>",
+      "content-2": "PitchTalk is thought of as an <b>ungoverned and self-sustaining decentralized platform</b> that empowers growth through cleverly designed structure that focuses on viability and organically generated interest",
+
+      "scrollBlockContent-1": "Fundraising and Grants issuance stages",
+      "scrollBlockContent-2": "Listing on DEX (Jumbo Exchange) with sufficient incentive and reward structure",
+      "scrollBlockContent-3": "Initial Marketing and Connections establishing"
+    },
+    "howItWork": {
+      "title": "How does it work?",
+      "content": "PitchTalk crystallizes the essence of fundraising/informing by <b>providing a unique format of Pitching</b>. <br/><br/> Pitch is essentially when a project decides to launch their campaign on PitchTalk. Every potential investor <b>is able to in real-time (as well as in recording) observe the Pitch</b>. At any point in time, <b>an investor is able to invest a certain amount</b> that will also be displayed on the interface.",
+
+      "introPitchContent": "The very basic overview of a project and the vision behind it. No investments are accepted during this stage",
+      "updatePitchContent": "The very basic overview of a project and the vision behind it. No investments are accepted during this stage",
+      "investPitchContent": "The very basic overview of a project and the vision behind it. No investments are accepted during this stage"
+    },
+    "calendarBlock": {
+      "mainContent": "<b>PitchTalk has a calendar function</b><br/> that is visible to anyone interested in a specific project. Project owners can schedule each pitch for a specific date and time fitting to them!",
+      "subContent": "In this way, PitchTalk facilitates a more direct connection between investors both retail and Venture Capital whilst getting rid of the veil that is present in traditional Fundraising!"
+    },
+    "featuresBlock": {
+      "title": "Main Features",
+
+      "feature-1": "Disruptive Way of initiating Fundraising and Raising Interest!",
+      "feature-2": "No obstacles in starting a campaign. Start your Pitch and let everyone know what is it you and your team is building",
+      "feature-3": "Post and share videos and other materials relevant to the development of your project in real-time. Let everyone know what you are cooking behind the scenes!",
+      "feature-4": "Update your investors on what you are working on, have already released or show off your ambitious roadmap. Every investor will know about it in an instant with the help of a user-friendly and simple interface of PitchTalk!Unique and transparent Grant Issuance system",
+      "feature-5": "Let everyone know about anything you wish they should know about: White paper, features, social media channels, latest features; everything in one neat sleek package to showcase the worth of your creation!"
+    },
+    "grantsBlock": {
+      "title": "Grant Issuance System Details",
+      "content-1": "Ecosystem Grants have always been a very contentious topic within communities. This is partly because of the lack of transparency and due to limited communication outside of Grant issuer and receiver.",
+      "content-2": "Grants on PitchTalk are distributed in the transparent on-chain way and are visible to everyone. Grants are issued only by certain <b>eligible and whitelisted grant issuers. Moreover, to issue a grant</b> through PitchTalk means an additional exposure to VCs on PitchTalk and heightened attention from the general public.",
+      "content-3": "After all of the Pitches are concluded, <b>invested amounts are automatically converted to a specific token of a given project.</b>",
+      "content-4": "",
+
+      "subTitle": "What VCs get from being partners of PitchTalk Platform:",
+      "subContent-1": "An ability to be at the earliest stages of investment",
+      "subContent-2": "An ability to always be up-to-date with the most recent projects being developed withing the ecosystem.",
+      "subContent-3": "An ability to view in real-time the interaction between other VCs and users with a project to gauge both the interest and viability, making the end decision more thought out.",
+      "subContent-4": "An ability to be a part of PitchTalk Capital",
+
+      "summaryTitle": "A summary of what a project can expect by submitting their Pitch:",
+      "summary-1": "Social Media outreach",
+      "summary-2": "Listing on Jumbo Exchange and reward incentives",
+      "summary-3": "A headstart for Development",
+      "summary-4": "Exposure and outreach to VCs that otherwise wouldn’t be possibleGrant system that makes issuing grants from the ecosystem fund more transparent and easier"
+    },
+    "partners": {
+      "title": "PARTNERS"
+    }
+  },
+  "uploadPicturesModal": {
+    "title": "Add the project preview pictures",
+    "or": "or",
+    "pasteTheBannerLink": "Paste the link for the banner",
+    "pasteTheLogoLink": "Paste the link for the logo",
+    "uploadFile": "Upload the file",
+    "submitFiles": "Submit",
+    "ipfsInfo": "Files will be uploaded to the IPFS server",
+    "cancel": "Cancel",
+    "banner": "Project banner",
+    "logo": "Project logo",
+    "areYouSure": "Are you sure want to close? Any changes won't be saved.",
+    "close": "Close",
+    "continue": "Continue"
+  },
+  "ratings": {
+    "leaderBoard": "LeaderBoard",
+    "rankProjects": "Rank Projects",
+    "rankFunds": "Rank Funds",
+    "projectsRating": "Projects rating",
+    "fundsRating": "Funds rating",
+    "emptyRating": "There are no ratings at this time.",
+    "token": {
+      "USDT": "USDT",
+      "NEAR": "NEAR"
+    },
+    "time": {
+      "ALL": "All",
+      "MONTH": "30 Days",
+      "WEEK": "7 Days",
+      "DAY": "24 hours"
+    }
+  }
+}

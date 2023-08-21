@@ -1,0 +1,78 @@
+.banner-container {
+    background-image: url('../../../../assets/images/small-banner-bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid #653EE2;
+    position: relative;
+    box-shadow: 10px 10px 73px 0 rgba(101,62,226,1);
+    height: 74px;
+    top: 70px;
+    right: 315px;
+    transition: 0.3s height;
+    width: 615px;
+}
+
+.banner-container:not(.noHover):hover {
+    background-position: center center;
+    background-image: url('../../../../assets/images/banner-bg.jpg');
+    height: 261px;
+    transition: 0.3s height;
+}
+
+.banner-container:not(.noHover):hover svg {
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.banner-container:not(.noHover):hover svg image {
+    width: 30px;
+    height: 30px;
+}
+
+.banner-container:not(.noHover):hover  img {
+    opacity: 1;
+}
+
+.banner-container:not(.noHover):hover a {
+    transition: 0.3s height;
+    top: 10px;
+    position: absolute;
+    height: 100%;
+}
+
+.banner-container:not(.noHover):hover a div div {
+    bottom: 20px;
+    top: unset;
+    transform: unset;
+    right: 40px;
+}
+
+.banner-container:not(.noHover):hover a div div #accessBtn {
+    border-radius: 5px;
+}
+
+.banner-container:not(.noHover):hover span {
+    top: 15px;
+    right: unset;
+    left: 15px;
+    font-size: 28px;
+    max-width: 330px;
+}
+
+@media (max-width: 767px) {
+    .banner-container {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .banner-container:not(.noHover):hover  {
+        top: 30px;
+    }
+    .banner-container:not(.noHover):hover span {
+        font-size: 20px;
+        max-width: 150px;
+    }
+}

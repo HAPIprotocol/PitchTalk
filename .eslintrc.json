@@ -1,0 +1,64 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"] },
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks",
+    "import"
+  ],
+  "rules": {
+    "max-line-length": [0, { "limit": 120 }],
+    "no-mixed-spaces-and-tabs": 0,
+    "comma-dangle": ["error", "only-multiline"],
+    "curly": 0,
+    "quotes": ["error", "single"],
+    "ordered-imports": 0,
+    "member-ordering": [0],
+    "interface-name": [0],
+    "arrow-parens": 0,
+    "eofline": 0,
+    "sort-keys": 0,
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "no-shadow": 0,
+    "newline-per-chained-call": 0,
+    "linebreak-style": ["error", "unix"],
+    "no-console": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/no-unresolved": "error",
+    "import/order": [
+      "error",
+      {
+          "alphabetize": {
+              "order": "asc",
+              "caseInsensitive": true
+          },
+          "newlines-between": "always",
+          "groups": [
+              "builtin",
+              "external",
+              "internal",
+              ["parent", "sibling", "index"],
+              "object"
+          ]
+      }
+    ]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.vesting-chart svg > g > g > g > rect {
+  height: 0.1px;
+}
+
+.vesting-chart svg > g > g > g > rect[fill='#28195a'] {
+  stroke: #28195a;
+  fill: transparent;
+  stroke-width: 1px;
+  stroke-dasharray: 2.5, 2.5;
+}
+.vesting-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -65px;
+}
+
+@media (max-width: 767px) {
+  .vesting-chart {
+    width: 395px;
+    margin-top: -45px;
+    margin-left: -40px;
+  }
+}
+
+#reactgooglegraph-1 text {
+  line-height: 13px;
+}
+
+/* Tooltip styles */
+div > .google-visualization-tooltip {
+  background-color: unset;
+  box-shadow: unset;
+  border: 0;
+  margin-right: 50px;
+}
+.tooltip-wrapper {
+  width: fit-content;
+  max-width: 140px;
+  height: 78px;
+  background-color: #141414;
+  border: 1px solid #653ee2;
+  border-radius: 5px;
+  padding: 8px 13px;
+  color: white;
+  font-family: 'Everett-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 130%;
+}
+
+.tooltip-wrapper .tooltip-date {
+  color: #c4c4c4;
+}
+
+.tooltip-wrapper .tooltip-percent {
+  color: #653ee2;
+}
+
+.tooltip-wrapper .tooltip-tokens {
+  margin-top: 18px;
+  font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.claim-vesting-transition-enter {
+  opacity: 0;
+}
+.claim-vesting-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.claim-vesting-transition-exit {
+  opacity: 1;
+}
+.claim-vesting-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

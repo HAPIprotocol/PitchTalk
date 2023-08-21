@@ -1,0 +1,155 @@
+import { createUseStyles } from 'react-jss';
+
+import calendarLayout from 'assets/images/about-page/calendar/calendarLayout.svg';
+import {
+  MAX_WIDTH_1239,
+  MAX_WIDTH_1439,
+  MAX_WIDTH_767,
+} from 'shared/constants';
+import { IAppTheme } from 'shared/styles/theme';
+
+export const useStyles = createUseStyles((theme: IAppTheme) => ({
+  container: {
+    color: theme.colors.white,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    maxWidth: '1130px',
+    marginInline: '155px',
+    marginBlock: '100px',
+    [MAX_WIDTH_1439]: {
+      maxWidth: '875px',
+      marginInline: 'auto',
+      marginBlock: '77px',
+    },
+    [MAX_WIDTH_1239]: { maxWidth: '520px', marginBlock: '46px' },
+    [MAX_WIDTH_767]: { maxWidth: '280px', marginBlock: '35px' },
+  },
+  content: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+    gap: '70px',
+    [MAX_WIDTH_1439]: { gap: '54px' },
+    [MAX_WIDTH_1239]: { gap: '32px' },
+    [MAX_WIDTH_767]: { gap: '22px', maxWidth: '280px' },
+  },
+  mainContent: {
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    position: 'relative',
+    gap: '82px',
+    overflowX: 'hidden',
+    [MAX_WIDTH_1439]: { gap: '63px' },
+    [MAX_WIDTH_1239]: { gap: '37px' },
+    [MAX_WIDTH_767]: { gap: '11px', maxWidth: '280px' },
+  },
+  subContent: {
+    paddingBlock: '25px',
+    borderTop: ['1px', 'solid', theme.colors.lightGrey],
+    borderBottom: ['1px', 'solid', theme.colors.lightGrey],
+    [MAX_WIDTH_1439]: { paddingBlock: '19px' },
+    [MAX_WIDTH_1239]: { borderWidth: '0.5px', paddingBlock: '11px' },
+  },
+  subContentText: {
+    color: theme.colors.lightGrey,
+    fontSize: '2rem',
+    lineHeight: '2.25rem',
+    paddingLeft: '37px',
+    position: 'relative',
+    marginBlock: '0px',
+    '&:before': {
+      content: '""',
+      position: 'absolute',
+      left: 0,
+      width: '14px',
+      height: '100%',
+      borderRadius: '3px',
+      background: theme.colors.secondaryDark,
+    },
+    [MAX_WIDTH_1439]: {
+      fontSize: '1.544rem',
+      lineHeight: '1.736rem',
+      paddingLeft: '27px',
+      '&:before': {
+        width: '10px',
+        borderRadius: '2px',
+      },
+    },
+    [MAX_WIDTH_1239]: {
+      fontSize: '0.916rem',
+      lineHeight: '1.03rem',
+      paddingLeft: '16px',
+      '&:before': { width: '6px', borderRadius: '1.3px' },
+    },
+    [MAX_WIDTH_767]: { fontSize: '0.75rem', lineHeight: '0.875rem' },
+  },
+  calendarContentIcon: {
+    width: '155px',
+    height: '155px',
+    marginBottom: '62px',
+    [MAX_WIDTH_1439]: {
+      width: '120px',
+      height: '120px',
+      marginBottom: '48px',
+    },
+    [MAX_WIDTH_1239]: {
+      width: '71px',
+      height: '71px',
+      marginBottom: '28px',
+    },
+    [MAX_WIDTH_767]: {
+      width: '60px',
+      height: '60px',
+      marginBottom: '23px',
+    },
+  },
+  calendarContentText: {
+    fontSize: '1.25rem',
+    lineHeight: '2rem',
+    fontFamily: theme.fonts.Everett.Light,
+    '& > b': {
+      fontFamily: theme.fonts.Everett.Medium,
+      textTransform: 'uppercase',
+    },
+    marginBlock: '0px',
+    textAlign: 'center',
+    [MAX_WIDTH_1439]: { fontSize: '0.965rem', lineHeight: '1.544rem' },
+    [MAX_WIDTH_1239]: { fontSize: '0.573rem', lineHeight: '0.916rem' },
+  },
+  calendarLayout: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundImage: `url(${calendarLayout})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    minWidth: '618px',
+    minHeight: '340px',
+    [MAX_WIDTH_1439]: {
+      minWidth: '476px',
+      minHeight: '262px',
+    },
+    [MAX_WIDTH_1239]: {
+      minWidth: '282px',
+      minHeight: '155px',
+    },
+    [MAX_WIDTH_767]: {
+      minWidth: 'unset',
+      minHeight: 'unset',
+      width: '282px',
+      height: '155px',
+      backgroundSize: 'cover',
+      backgroundPosition: '100% center',
+    },
+  },
+  calendarContent: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+}));

@@ -1,0 +1,27 @@
+swiper-slide {
+  color: #FFFFFF;
+  background: #1F1F1F;
+  height: 238px;
+
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+swiper-slide:hover, swiper-slide:active {
+  border-bottom: 1px solid #653EE2;
+}
+
+@media (max-width: 1239px) {
+  swiper-slide {
+    max-width: 500px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 767px) {
+  swiper-slide {
+    max-width: 300px;
+    height: 210px;
+  }
+}
